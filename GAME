@@ -32,9 +32,9 @@ function startGame(){
   textAlign(CENTER);
   fill('#fff')
   textFont('Algerian')
-  textSize(36);
+  textSize(32);
   hero.resetScore();
-  text('WELCOME TO MY CATCHING GAME', width / 2, height / 2)
+  text('WELCOME TO GAME CATCH THE FOOD', width / 2, height / 2)
   fill('#fff')
   textFont('Courier')
   textSize(20);
