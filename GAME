@@ -1,4 +1,5 @@
-let hero,maps;
+let hero;
+let maps;
 let screen = 0;
 
 function setup() {
@@ -26,12 +27,19 @@ function mousePressed(){
 }
 
 function startGame(){
-  background(96, 157, 255)
+  background(0, 0, 0)
   fill(255)
   textAlign(CENTER);
+  fill('#fff')
+  textFont('Algerian')
+  textSize(36);
   hero.resetScore();
   text('WELCOME TO MY CATCHING GAME', width / 2, height / 2)
-  text('click to start', width / 2, height / 2 + 20);
+  fill('#fff')
+  textFont('Courier')
+  textSize(20);
+  text('Click to Start', width / 2, height / 2 + 100);
+  text('--------------', width / 2, height / 2 + 115)
 }
 
 function game(){
@@ -74,12 +82,19 @@ function game(){
 }
 
 function endGame(){
-  background(150)
+  background(0, 0, 0)
   textAlign(CENTER);
+  fill('#Ff0000')
+  textFont('Algerian')
+  textSize(60);
   text('GAME OVER', width / 2, height / 2)
-  text("SCORE = " + hero.getScore(), width / 2, height / 2 + 20)
-  text("HIGHSCORE = "+hero.saveScore(), width / 2, height / 2 + 40)
-  text('click to play again', width / 2, height / 2 + 60);
+  fill('#fff')
+  textFont('Courier')
+  textSize(20);
+  text("SCORE = " + hero.getScore(), width / 2, height / 2 + 60)
+  text("HIGHSCORE = "+hero.saveScore(), width / 2, height / 2 + 80)
+  text('Click to Play Again', width / 2, height / 2 + 140);
+  text('--------------------', width / 2, height / 2 + 155)
 }
 
 class Entity{
