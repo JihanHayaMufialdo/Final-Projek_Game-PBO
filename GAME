@@ -29,6 +29,11 @@ function mousePressed(){
 function startGame(){
   background(0, 0, 0)
   fill(255)
+  fill('#FFC107')
+  textFont('Courier')
+  textSize(14);
+  text("Jihan Haya Mufialdo \n2117051095",100,height - 25);
+  text("Shafa Auliya \n2117051042",535,height - 25);
   textAlign(CENTER);
   fill('#fff')
   textFont('Algerian')
