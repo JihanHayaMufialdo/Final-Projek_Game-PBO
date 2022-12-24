@@ -44,9 +44,10 @@ function startGame(){
 
 function game(){
   background(0, 0, 0)
-  fill('#000');
-  text("Score : " + hero.getScore(),25,40);
-  text("HighScore : " +hero.saveScore(),25,20);
+  fill('#fff');
+  textSize(20);
+  text("Score     : " + hero.getScore(),79,20);
+  text("HighScore : " + hero.saveScore(),79,40);
   hero.show();
   
   for(let monster of maps.monsters){
