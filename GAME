@@ -220,5 +220,13 @@ class Level{
     this.latestLevel = 0;
     this.maxLevel = 0;
   }
+  
+  setLevel(){
+    
+  }
+  
+  getCurrentLevel(){
+    
+  }
 }
 
