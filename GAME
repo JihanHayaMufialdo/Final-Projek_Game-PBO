@@ -43,7 +43,7 @@ function startGame(){
 }
 
 function game(){
-  background(220);
+  background(0, 0, 0)
   fill('#000');
   text("Score : " + hero.getScore(),25,40);
   text("HighScore : " +hero.saveScore(),25,20);
@@ -174,7 +174,7 @@ class Monster extends Entity{
     stroke(0);
     if(this.type > 1){
       this.color = 1;
-      fill('#008');
+      fill('#03A9F4');
       ellipse(this.x,this.y,20,20);
       noFill();
     }else{
@@ -229,4 +229,3 @@ class Level{
     
   }
 }
-
