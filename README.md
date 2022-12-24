@@ -1,4 +1,4 @@
 # Final Projek Game Java Script PBO
 
-Jihan Haya Mufialdo 2117051095
-Shafa Auliya 2117051042
+<p>Jihan Haya Mufialdo 2117051095</p>
+<p>Shafa Auliya 2117051042</p>
