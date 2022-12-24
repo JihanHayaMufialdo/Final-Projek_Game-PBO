@@ -3,8 +3,8 @@ let maps;
 let screen = 0;
 
 function setup() {
-  hero = new Hero(250,480,40,20);
-  maps = new Map(600,500);
+ hero = new Hero(250,450,40,20);
+  maps = new Map(600,470);
   maps.init();
 }
 
